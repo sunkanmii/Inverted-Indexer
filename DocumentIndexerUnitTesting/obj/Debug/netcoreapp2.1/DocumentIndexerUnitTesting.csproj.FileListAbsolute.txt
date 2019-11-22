@@ -1,0 +1,18 @@
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\obj\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.csprojAssemblyReference.cache
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\obj\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\obj\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.AssemblyInfoInputs.cache
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\obj\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.AssemblyInfo.cs
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.deps.json
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.runtimeconfig.json
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.runtimeconfig.dev.json
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.dll
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.pdb
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\C-Sharp Project.exe
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\C-Sharp Project.pdb
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\bin\Debug\netcoreapp2.1\C-Sharp Project.exe.config
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\obj\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.csproj.CopyComplete
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\obj\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.dll
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\DocumentIndexerUnitTesting\obj\Debug\netcoreapp2.1\DocumentIndexerUnitTesting.pdb
