@@ -343,7 +343,26 @@ namespace C_Sharp_Project
                 }
             }
 
-            return documentsIndexesInverted;
+            int itr = 0;
+            string[] arr = new string[documentsIndexesInverted.Count];
+            foreach (string item in documentsIndexesInverted.Keys)
+            {
+                arr[itr] = item;
+                itr++;
+            }
+
+            CountingSort.CountSort(arr);
+            itr = 0;
+
+            Dictionary<string, string> sortedDocumentsIndexesInverted = new Dictionary<string, string>();
+
+            foreach (KeyValuePair<string, string> item in documentsIndexesInverted)
+            {
+                sortedDocumentsIndexesInverted.Add(arr[itr], documentsIndexesInverted[arr[itr]]);
+                itr++;
+            }
+
+            return sortedDocumentsIndexesInverted;
         }
     }
 }
