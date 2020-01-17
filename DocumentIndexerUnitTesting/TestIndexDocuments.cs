@@ -15,16 +15,14 @@ namespace DocumentIndexerUnitTesting
 
             string[] documents = {
                 @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\About yourself.txt",
-                @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\Hour glass.docx",
                 @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\Spaghetti.txt",
-                @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\The Dark Knight.docx"
             };
                 
             Dictionary<string, Dictionary<string, int>> DocumentIndexes = ind_obj.IndexDocuments(documents);
 
             Dictionary<string, int> firstDoc = DocumentIndexes.Values.ElementAt(0);
 
-            Assert.AreEqual(firstDoc.Keys.ElementAt(0), "Hi");            
+            Assert.AreEqual(firstDoc.Keys.ElementAt(0), "hi");            
         }
 
         [TestMethod]
@@ -34,16 +32,14 @@ namespace DocumentIndexerUnitTesting
 
             string[] documents = {
                 @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\About yourself.txt",
-                @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\Hour glass.docx",
                 @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\Spaghetti.txt",
-                @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\The Dark Knight.docx"
             };
 
             Dictionary<string, Dictionary<string, int>> DocumentIndexes = ind_obj.IndexDocuments(documents);
 
-            Dictionary<string, int> secondDoc = DocumentIndexes.Values.ElementAt(1);
+            Dictionary<string, int> firstDoc = DocumentIndexes.Values.ElementAt(0);
 
-            Assert.AreEqual(secondDoc.Keys.ElementAt(1), "glass"); 
+            Assert.AreEqual(firstDoc.Keys.ElementAt(2), "fafowora"); 
         }
 
         [TestMethod]
@@ -53,15 +49,13 @@ namespace DocumentIndexerUnitTesting
 
             string[] documents = {
                 @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\About yourself.txt",
-                @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\Hour glass.docx",
                 @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\Spaghetti.txt",
-                @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\The Dark Knight.docx"
             };
 
             Dictionary<string, Dictionary<string, int>> DocumentIndexes = ind_obj.IndexDocuments(documents);
-            Dictionary<string, int> thirdDoc = DocumentIndexes.Values.ElementAt(2);
+            Dictionary<string, int> secondDoc = DocumentIndexes.Values.ElementAt(1);
 
-            Assert.AreEqual(thirdDoc.Keys.ElementAt(3), "carbohydrate");
+            Assert.AreEqual(secondDoc.Keys.ElementAt(1), "rich");
         }
 
         [TestMethod]
@@ -71,15 +65,13 @@ namespace DocumentIndexerUnitTesting
 
             string[] documents = {
                 @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\About yourself.txt",
-                @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\Hour glass.docx",
                 @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\Spaghetti.txt",
-                @"C:\Users\Sunkanmi\Documents\1) Uni files\300 level files\2nd Semester\CSC 322(C#)\Project Materials\Random documents\The Dark Knight.docx"
             };
 
             Dictionary<string, Dictionary<string, int>> DocumentIndexes = ind_obj.IndexDocuments(documents);
-            Dictionary<string, int> fourthDoc = DocumentIndexes.Values.ElementAt(3);
+            Dictionary<string, int> secondDoc = DocumentIndexes.Values.ElementAt(1);
 
-            Assert.AreEqual(fourthDoc.Keys.ElementAt(1), "dark");
+            Assert.AreEqual(secondDoc.Keys.ElementAt(2), "nature");
         }
 
     }

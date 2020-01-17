@@ -1,23 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.IO;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Text;
 
 namespace C_Sharp_Project
 {
-    static class Program
+    class Program
     {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
-        static void Main()
+        public static void Main(string[] args)
         {
-             Application.EnableVisualStyles();
-             Application.SetCompatibleTextRenderingDefault(false);
-             Application.Run(new Form1());
+            Indexer ind_obj = new Indexer();
+            string[] docLocs = { @"./RandomDocs/About yourself.txt", @"./RandomDocs/Spaghetti.txt"
+             };
+
+            Dictionary<string, string> invInd = ind_obj.DocumentInvertedIndexer(docLocs);
+
+            foreach (KeyValuePair<string, string> item in invInd)
+            {
+                Console.WriteLine("Keys: {0} Values: {1}", item.Key, item.Value);
+            }
+
+            Console.ReadLine();
         }
     }
 }

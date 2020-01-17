@@ -211,8 +211,8 @@ namespace C_Sharp_Project
                     arr[i] = item.Keys.ElementAt(i);
                 }
 
-                //Calling counting sort here.
-                CountingSort.CountSort(arr);
+                //Calling quickSort here.
+                Sort.quickSort(arr, 0, arr.Length - 1);
 
                 for (int i = 0; i < item.Count; i++)
                 {
@@ -321,8 +321,8 @@ namespace C_Sharp_Project
         /// </summary>
         /// <param name="documentLocations">Accepts the documents
         /// locations of each document.</param>
-        /// <returns>A dictionary storing the inverted indexes of
-        /// the documents.</returns>
+        /// <returns>A dictionary storing the inverted index of
+        /// each documents.</returns>
         public Dictionary<string, string> DocumentInvertedIndexer(string[] documentLocations)
         {
             Indexer ind_obj = new Indexer();
@@ -351,7 +351,8 @@ namespace C_Sharp_Project
                 itr++;
             }
 
-            CountingSort.CountSort(arr);
+
+            Sort.quickSort(arr, 0, arr.Length - 1);
             itr = 0;
 
             Dictionary<string, string> sortedDocumentsIndexesInverted = new Dictionary<string, string>();

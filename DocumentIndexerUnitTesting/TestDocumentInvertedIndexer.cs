@@ -26,7 +26,7 @@ namespace DocumentIndexerUnitTesting
 
             Dictionary<string, string> firstDoc = invertIndexForDocs.Keys.ElementAt(0);
 
-            Assert.AreEqual(firstDoc.Keys.ElementAt(0), "fafowora");
+            Assert.AreEqual(firstDoc.Keys.ElementAt(0), "carbohydrate");
         }
 
         [TestMethod]

@@ -40,8 +40,6 @@ namespace DocumentIndexerUnitTesting
         [TestMethod]
         public void TestForNumberInput()
         {
-            //Still needs to be worked on.
-            int age = 10;
             Indexer ind_obj = new Indexer();
 
             bool wrongInput = ind_obj.CheckExtension("10");

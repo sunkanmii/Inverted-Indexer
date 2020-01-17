@@ -7,4 +7,5 @@ C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\C-Sha
 C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\C-Sharp Project\obj\Debug\C-Sharp Project.csproj.CoreCompileInputs.cache
 C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\C-Sharp Project\obj\Debug\C-Sharp Project.exe
 C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\C-Sharp Project\obj\Debug\C-Sharp Project.pdb
-C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\C-Sharp Project\obj\Debug\C_Sharp_Project.Form1.resources
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\C-Sharp Project\bin\Debug\RandomDocs\About yourself.txt
+C:\Users\Sunkanmi\Documents\My_Personal_Workfiles\C# files\C-Sharp Project\C-Sharp Project\bin\Debug\RandomDocs\Spaghetti.txt
