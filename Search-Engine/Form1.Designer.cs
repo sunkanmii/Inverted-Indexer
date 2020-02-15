@@ -33,7 +33,7 @@
             this.inputBox = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Title = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.performanceLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // addFiles
@@ -68,9 +68,11 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBox2.Location = new System.Drawing.Point(131, 293);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(399, 137);
             this.textBox2.TabIndex = 3;
             this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
@@ -85,21 +87,22 @@
             this.Title.Text = "Search Engine";
             this.Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // performanceLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(128, 178);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 17);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Performance: ";
+            this.performanceLabel.AutoSize = true;
+            this.performanceLabel.Location = new System.Drawing.Point(128, 178);
+            this.performanceLabel.Name = "performanceLabel";
+            this.performanceLabel.Size = new System.Drawing.Size(97, 17);
+            this.performanceLabel.TabIndex = 7;
+            this.performanceLabel.Text = "Performance: ";
+            this.performanceLabel.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(922, 500);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.performanceLabel);
             this.Controls.Add(this.Title);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.inputBox);
@@ -119,7 +122,7 @@
         private System.Windows.Forms.TextBox inputBox;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label Title;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label performanceLabel;
     }
 }
 

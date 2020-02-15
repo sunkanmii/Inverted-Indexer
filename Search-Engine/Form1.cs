@@ -56,14 +56,22 @@ namespace Search_Engine
         private void SearchButton_Click(object sender, EventArgs e)
         {
             MatchingFunction matchObj = new MatchingFunction();
+            Stopwatch watch = new Stopwatch();
+
+            if (cusLinkLabels.Count > 0)
+            {
+                cusLinkLabels.Clear();
+            }
 
             if (inputBox.Text != "")
             {
+                watch.Start();
                 docsMatched = matchObj.MatchInput(inputBox.Text, invertedIndex);
                 for (int i = 0; i < docsMatched.Count; i++)
                 {
                     cusLinkLabels.Add(new LinkLabel());
 
+                    textBox2.Text = "";
                     int doc = 0;
                     if (!(docsMatched[0].Equals("Not Found")))
                     {
@@ -85,6 +93,8 @@ namespace Search_Engine
                         textBox2.Text = docsMatched[0];
                     }
                 }
+                watch.Stop();
+                performanceLabel.Text = "Performance : " + watch.ElapsedMilliseconds + "ms"; 
             }
             else
             {
@@ -113,6 +123,11 @@ namespace Search_Engine
         }
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
         {
 
         }
